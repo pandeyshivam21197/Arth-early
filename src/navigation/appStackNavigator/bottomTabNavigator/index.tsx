@@ -8,7 +8,7 @@ import DocumentationStackNavigator from './documentationStackNavigator';
 import SettingsStackNavigator from './settingsStackNavigator';
 import MoreStackNavigator from './moreStackNavigator';
 import {theme} from '../../../styles/theme';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 
 export type BottomTabNavigatorParamList = {
   [NavigationKeys.housekeepingStack]: undefined;

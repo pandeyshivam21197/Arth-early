@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-export const Home: FC<any> = (): React.ReactElement => {
+export const Settings: FC<any> = (): React.ReactElement => {
   return (
     <View style={styles.container}>
-      <Text>{'Home Screen'}</Text>
+      <Text>{'Settings Screen'}</Text>
     </View>
   );
 };

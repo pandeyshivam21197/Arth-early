@@ -1,17 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import AppStackNavigator from './appStackNavigator';
-import {useAppSelector} from '../reduxStore/hooks';
-import AuthStackNavigator from './authStackNavigator';
+// import {useAppSelector} from '../reduxStore/hooks';
 
 const RootNavigator = () => {
-  const isLoggedIn = useAppSelector(state => state.singInReducer.isLoggedIn);
+  // const isLoggedIn = useAppSelector(state => state.singInReducer.isLoggedIn);
 
-  return (
-    <NavigationContainer>
-      {isLoggedIn ? <AppStackNavigator /> : <AuthStackNavigator />}
-    </NavigationContainer>
-  );
+  return <NavigationContainer>{<AppStackNavigator />}</NavigationContainer>;
 };
 
 export default RootNavigator;

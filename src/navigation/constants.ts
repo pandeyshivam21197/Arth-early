@@ -1,18 +1,17 @@
 export enum NavigationKeys {
   // stacks
-  homeStack = 'homeStack',
-  paymentStack = 'paymentStack',
-  businesstack = 'businesstack',
-  invoiceStack = 'invoiceStack',
-  virtaulStack = 'virtaulStack',
+  housekeepingStack = 'housekeepingStack',
+  planningStack = 'planningStack',
+  documentationStack = 'documentationStack',
+  settingsStack = 'settingsStack',
+  moreStack = 'moreStack',
 
   // screen
-  homeScreen = 'homeScreen',
-  businessScreen = 'businessScreen',
-  paymentScreen = 'paymentScreen',
-  invoiceScreen = 'invoiceScreen',
-  virtaulScreen = 'virtaulScreen',
-  singInScreen = 'singInScreen',
+  housekeepingScreen = 'housekeepingScreen',
+  planningScreen = 'planningScreen',
+  moreScreen = 'moreScreen',
+  documentationScreen = 'documentationScreen',
+  settingsScreen = 'settingsScreen',
 
   // tab
   bottomTab = 'bottomTab',

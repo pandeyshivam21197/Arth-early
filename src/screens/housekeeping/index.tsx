@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-export const Business: FC<any> = (): React.ReactElement => {
+export const Housekeeping: FC<any> = (): React.ReactElement => {
   return (
     <View style={styles.container}>
-      <Text>{'Business Screen'}</Text>
+      <Text>{'Housekeeping Screen'}</Text>
     </View>
   );
 };

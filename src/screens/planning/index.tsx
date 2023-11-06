@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-export const Virtual: FC<any> = (): React.ReactElement => {
+export const Planning: FC<any> = (): React.ReactElement => {
   return (
     <View style={styles.container}>
-      <Text>{'Virtual Screen'}</Text>
+      <Text>{'Planning Screen'}</Text>
     </View>
   );
 };

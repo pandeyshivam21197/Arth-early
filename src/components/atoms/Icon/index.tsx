@@ -2,13 +2,20 @@ import {createIconSetFromIcoMoon} from 'react-native-vector-icons';
 import icoMoonConfig from '../../../assets/selection.json';
 
 export const icons = {
-  homeTab: 'homeTab',
-  paymentTab: 'paymentTab',
-  businessTab: 'businessTab',
-  virtualTab: 'virtualTab',
-  invoiceTab: 'invoiceTab',
-  user: 'user',
+  penOutline: 'penOutline',
+  leftArrow: 'leftArrow',
+  rightArrow: 'rightArrow',
   downArrow: 'downArrow',
+  notes: 'notes',
+  searchOutline: 'searchOutline',
+  checkCircled: 'checkCircled',
+  backArrow: 'backArrow',
+  notificationOutline: 'notificationOutline',
+  moreDots: 'moreDots',
+  editSqure: 'editSqure',
+  setting: 'setting',
+  paper: 'paper',
+  grid: 'grid',
 };
 
 export const Icon = createIconSetFromIcoMoon(icoMoonConfig);

@@ -13,6 +13,8 @@ export enum NavigationKeys {
   documentationScreen = 'documentationScreen',
   settingsScreen = 'settingsScreen',
 
+  attendanceScreen = 'attendanceScreen',
+
   // tab
   bottomTab = 'bottomTab',
 }
